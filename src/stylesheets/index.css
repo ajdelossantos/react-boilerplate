@@ -1,0 +1,11 @@
+#error-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #DDD;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  margin: 200px 80px;
+  box-shadow: 2px 2px 5px 0px rgba(136,136,136,1);
+}

@@ -10,6 +10,10 @@ const moduleObj = {
       test: /\.jsx?$/,
       exclude: /node_modules/,
       loaders: ["babel-loader"]
+    },
+    {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
     }
   ]
 };
